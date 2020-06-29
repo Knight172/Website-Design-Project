@@ -1,0 +1,251 @@
+create new txt file and Save index.html           code: 01
+_________________________________________________________________
+
+
+<html>
+  <head><title>Login Form Desing</title></head>
+  <link rel="stylesheet" href="style.css">
+  <body>
+    <div class="main">
+      
+      <h1>Register Form</h1>
+      <hr>
+    <div class="user">
+    <label>Username</label>
+    <input type="text" id="r1" name="m1" placeholder="Enter Your Username">
+    </div>
+     
+    <div class="email">
+      <label>Email</label>
+      <input type="text" id="r2" name="m2" placeholder="Enter Your Email">
+      </div>
+   
+      <!-- <h4>Date Of Birth</h4> -->
+
+      <div class="bir">
+         <p>Age</p>
+        <p>Month</p>
+        <p>Year</p>
+        <br>
+      </div>
+  
+      <div class="dob-1">
+    
+        
+        <select id="r3" name="m3">
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+          <option>24</option>
+          <option>25</option>
+          <option>26</option>
+          <option>26</option>
+          <option>28</option>
+          <option>29</option>
+          <option>30</option>
+          <option>31</option>
+        </select>
+        </div>
+
+
+        <div class="dob-2">
+          <label></label>
+        <select  id="r4" name="m4">
+         <option>Jan</option>
+         <option>Feb</option>
+         <option>Mar</option>
+         <option>Apr</option>
+         <option>May</option>
+         <option>Jun</option>
+         <option>Jul</option>
+         <option>Aug</option>
+         <option>Sep</option>
+         <option>Oct</option>
+         <option>Nov</option>
+         <option>Dec</option>
+
+        </option>
+        </select>
+        </div>
+
+
+        <div class="dob-3">
+        <label></label>
+        <select id="r5" name="m5">
+          <option>1998</option>
+          <option>1999</option>
+          <option>2000</option>
+          <option>2001</option>
+          <option>2002</option>
+          <option>2003</option>
+          <option>2004</option>
+          <option>2005</option>
+          <option>2006</option>
+          <option>2007</option>
+          <option>2008</option>
+          <option>2009</option>
+          <option>2010</option>
+          <option>2011</option>
+          <option>2012</option>
+          <option>2013</option>
+          <option>2014</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+          <option>2019</option>
+          <option>2000</option>
+         </select>
+        </div>
+  
+        <div class="pass">
+          <label>Password</label>
+          <input type="password" name="password" id="pas" placeholder="Enter Your Password">
+        </div>
+
+        <div class="registar">
+          <br>
+          <input type="submit" name="submit" value="Register Here">
+        </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create New Text file and Save Style.css                 code: 02
+____________________________________________________________________________________
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://i.postimg.cc/brGMzyc2/raj.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    max-width: 23%;
+    height: 57%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #90EE90;
+    padding: 50px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+    border-radius: 8%;
+    box-shadow: 0px 0px 290px linen;
+}
+
+.user{
+    padding: 8px 0px;
+}
+
+.user input{
+    width: 100%;
+}
+
+.email{
+    padding: 8px 0px;
+}
+
+.email input{
+    width: 100%;
+}
+
+.dob-1{
+    padding: 8px 0;
+    float: left;
+}
+
+.dob-2{
+    float: left;
+    padding: 8px 0 0 30px;
+}
+
+.dob-3{
+    float: left;
+    padding: 8px 0 0 30px;
+}
+
+.pass{
+padding-top: 60px;
+}
+
+.pass input{
+    width: 100%;
+}
+
+
+
+.registar input{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.registar:hover input{
+    background-color: red;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.bir p{
+    float: left;
+    margin-right: 65px;
+    margin-top: 8px ;
+}
+
+h1{
+    text-align: center;
+    font-size: 23px;
+}
+
+hr{
+    margin-top: 10px;
+    color: darkblue;
+}
+
+
+
+
