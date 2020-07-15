@@ -1,0 +1,182 @@
+save index.html
+___________________________________________________
+
+<html>
+    <head><title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <h3 class="chor">Florence</h3>
+      <div class="t2nd">
+      <ul>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Mobile App</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">WordPress</a></li>
+      </ul>
+      <img class="r1" src="Florence_Img/user.png">
+    </div>
+      
+    <div class="main">
+        <h1 class="x1">MAKE <span class="t1">HTML</span> & <span class="t1">CSS</span><br> WEBSITE</h1>
+        <p class="x2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit provident reprehenderit cum soluta quas libero aperiam!</p>
+    </div>
+
+    <div class="last">
+        <button type="button">Learn More</button>
+        <button class="sir1" type="button">Explore</button>
+    </div>
+      
+    <div class="koita">
+        <h1 class="gift">F</h1>
+
+        <div class="icon">
+            <img class="b1" src="Florence_Img/fb.png">
+            <img class="b2" src="Florence_Img/ig.png">
+            <img class="b3" src="Florence_Img/tw.png">
+        </div>
+    </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+create new page and save style.css
+____________________________________________________
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("Florence_Img/background.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+.t2nd{
+    float: right;
+    display: inline-block;
+    
+}
+
+.t2nd ul{
+    list-style-type: none;
+    margin-right: 200px;
+    display: block;
+    margin-top: -20px;
+}
+.t2nd li{
+    display: inline;
+   
+}
+.t2nd, a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding-right: 15px;
+}
+
+.t2nd li:hover{
+    border-bottom: 1px solid tomato;
+    padding-bottom: 15px;
+}
+
+.r1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -24px;
+    margin-right: 160px;
+}
+
+.chor{
+    color: white;
+    margin-left: 150px;
+    padding-top: 15px;
+    font-size: 22px;
+}
+
+.x1{
+    color: white;
+    margin-top: 120px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.x2{
+    margin-left: 150px;
+    width: 550px;
+    margin-top: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.t1{
+    color: tomato;
+}
+
+.last{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+button{
+    border-radius: 1000px;
+    padding: 15px;
+    color: white;
+    background-color: tomato;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: tomato;
+    cursor: pointer;
+}
+
+.sir1{
+    background: transparent;
+    border: 1px solid white;
+}
+
+.koita{
+    height: 103.6%;
+    margin-top: -400px;
+    margin-right: 96%;
+    background-color: black;
+}
+
+.gift{
+    color: gray;
+    font-size: 30px;
+    /* overflow: hidden; */
+    padding-top: 50px;
+    padding-left: 10px;
+
+}
+
+.icon,.b1{
+    width: 10px;
+    margin-top: 210px;
+    margin-left: 8px;
+    padding-top: -40px;
+}
+
+.icon,.b2{
+    width: 20px;
+    margin-top: 110px;
+    margin-left: 8px;
+}
+
+.icon,.b3{
+    width: 20px;
+    margin-top: 80px;
+    margin-left: 8px;
+}
