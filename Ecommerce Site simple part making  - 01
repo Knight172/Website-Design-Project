@@ -1,0 +1,164 @@
+Ecommerce Site simple part making  - 01 
+
+Save index.html
+_____________________________________
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="165.png" height="450px" width="450px" class="img1">
+    <p class="a1">NEW</p>
+    <h2 class="a2">Men's T Shirts V Neck Blue Color</h2>
+    <p class="a3">Product Code: ISRC2020</p>
+    <img src="124.png" width="70px" height="auto" class="img2">
+    <h2 class="a4">USD $15.00</h2>
+    <p class="a5">Availability: </p>
+    <p class="a6">Condition: </p>
+    <p class="a7">Brand: </p>
+    <p class="a8">In Stock</p>
+    <p class="a9">New</p>
+    <p class="a10">XYZ Company</p>
+    <label class="a11">Quantity:</label>
+    <input type="text" value="1" class="a12">
+    <button type="button" class="a13">Add to cart</button>
+</body>
+</html>
+
+
+
+
+
+Create New File And save style.css
+______________________________________________________
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img1{
+  left: 10%;
+  top: 10%;
+  position: absolute;
+  float: left;
+}
+
+.img2{
+  left: 44.8%;
+  top: 27%;
+  position: absolute;
+}
+
+.a1{
+  float: right;
+  top: 10.5%;
+  position: absolute;
+  left: 45%;
+  background-color: green;
+  padding: 0px 8px;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+.a2{
+  top: 15%;
+  left: 45%;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  opacity: 0.9;
+  color: #555;
+}
+
+.a3{
+  color: #555;
+  top: 22%;
+  left: 45%;
+  position: absolute;
+}
+
+.a4{
+  top: 33%;
+  left: 45%;
+  position: absolute;
+  font-size: 22px;
+  color: #FF980F;
+}
+
+.a5{
+  top: 40%;
+  left: 45%;
+  position: absolute;
+}
+
+.a6{
+    top: 46%;
+    left: 45%;
+    position: absolute;
+}
+
+.a7{
+  top: 52%;
+  left: 45%;
+  position: absolute;
+}
+
+.a8{
+  top: 40%;
+  left: 51.1%;
+  position: absolute;
+  color: #555;
+}
+
+.a9{
+  top: 46%;
+  left: 50.4%;
+  position: absolute;
+  color: #555;
+}
+
+.a10{
+  top: 52%;
+  left: 48.6%;
+  position: absolute;
+  color: #555;
+}
+
+.a11{
+  top: 58%;
+  left: 45%;
+  position: absolute;
+  color: #555;
+  font-size: 17px;
+}
+
+.a12{
+  top: 57%;
+  left: 50.3%;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+}
+
+.a13{
+  top: 57%;
+  left: 54%;
+  position: absolute;
+  background-color: #FE980F;
+  padding: 8px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
