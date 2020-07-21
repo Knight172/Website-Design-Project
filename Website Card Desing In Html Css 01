@@ -1,0 +1,155 @@
+Website Card Desing In Html Css
+
+
+Html css Source Code Here save index.html and run it
+______________________________________________________________________
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+
+    <style>
+        .a1{
+            background-color: white;
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 15%;
+            position: absolute;
+            border: 1px solid #e7e7e7;
+            transition: 0.4s;
+        }
+
+        .a2{
+            background-color: white;
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 40%;
+            position: absolute;
+            border: 1px solid #e7e7e7;
+        }
+
+        .a3{
+            background-color: white;
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 65%;
+            position: absolute;
+            border: 1px solid #e7e7e7;
+        }
+        .c1{
+            top: 67%;
+            left: 16%;
+            position: absolute;
+            font-size: 14px;
+            text-align: justify;
+            line-height: 23px;
+        }
+        .e1{
+            top: 50%;
+            left: 23%;
+            position: absolute;
+            font-size: 80px;
+            color: green;
+        }
+
+        .t1{
+            clear: both;
+        }
+        .v1{
+            margin-top: -180px;
+            color: tomato;
+            
+        }
+
+        .e2{
+            top: 90%;
+            left: 23%;
+            position: absolute;
+            font-size: 80px;
+            color: green;
+        }
+
+        .c2{
+            top: 66%;
+            left: 41%;
+            position: absolute;
+            line-height: 23px;
+            font-size: 14px;
+        }
+        .e3{
+            font-size: 80px;
+            color: green;
+            left: 48%;
+            top: 90%;
+            position: absolute;
+        }
+
+        .e4{
+            font-size: 80px;
+            color: green;
+            left: 48%;
+            top: 50%;
+            position: absolute;
+        }
+
+        .c3{
+            top: 66%;
+            left: 66%;
+            position: absolute;
+            line-height: 23px;
+            font-size: 14px;
+        }
+
+        .e5{
+            left: 73%;
+            top: 50%;
+            position: absolute;
+            color: green;
+            font-size: 80px;
+        }
+
+        .e6{
+            left: 73%;
+            top: 90%;
+            position: absolute;
+            color: green;
+            font-size: 80px;
+        }
+
+        .a1:hover{
+            border: 1px solid gray;
+
+        }
+    </style>
+</head>
+<body>
+ 
+   <div class="main">
+    <div class="a1"></div>
+    <div class="a1 a2"></div>
+    <div class="a1 a3"></div>
+    <code class="e1">&#8220</code>
+    <code class="c1">Lorem ipsum dolor sit, amet<br> consectetur adipisicing elit.<br> Aperiam, sapiente Lorem ipsum<br> dolor sit, amet consectetur<br> adipisicing elit. Aperiam,<br> sapiente reicie <hr class="v1"></code>
+    <code class="e2">&#8221</code>
+    </div>
+
+    <div class="mai2">
+        <code class="e3">&#8221</code>
+        <code><code class="c2">Lorem ipsum dolor sit, amet<br> consectetur adipisicing elit.<br> Aperiam, sapiente Lorem ipsum<br> dolor sit, amet consectetur<br> adipisicing elit. Aperiam,<br> sapiente reicie <hr class="v1"></code></code>
+        <code class="e4">&#8220</code>
+    </div>
+
+    <div class="mai3">
+        <code class="e5">&#8220</code>
+        <code><code class="c3">Lorem ipsum dolor sit, amet<br> consectetur adipisicing elit.<br> Aperiam, sapiente Lorem ipsum<br> dolor sit, amet consectetur<br> adipisicing elit. Aperiam,<br> sapiente reicie <hr class="v1"></code></code>
+        <code class="e6">&#8221</code>
+    </div>
+</body>
+</html>
